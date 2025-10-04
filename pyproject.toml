@@ -1,0 +1,18 @@
+[project]
+name = "voici-ai"
+version = "0.1.0"
+description = "Projet d'intelligence artificielle"
+authors = [
+    { name="Votre Nom", email="votre.email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    # Ajoutez vos dépendances ici, par exemple:
+    # "numpy",
+    # "torch",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
